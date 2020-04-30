@@ -37,12 +37,13 @@
 .map * {
   background-color: black;
   display: flex;
-  width: 500px;
+  width: flex;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   overflow-x: auto;
   flex-direction: row;
+  flex-grow: 1;
 }
 
 .placeholder * {
