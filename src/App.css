@@ -37,11 +37,19 @@
 .map * {
   background-color: black;
   display: flex;
-  width: 2000px;
+  width: 500px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   overflow-x: auto;
+  flex-direction: row;
+}
+
+.placeholder * {
+  background-color: black;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
 }
 
 .App-footer {

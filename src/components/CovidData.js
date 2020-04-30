@@ -117,7 +117,9 @@ export default class CovidData extends React.Component {
                         <CountryData stats={worldChart} selectedCountry="Worldwide Distribution"/>
                         }
                      <div className="map">
-                        <ReactWorldCountriesMap tooltipBgColor="black" color="blue" value-suffix="people" size="lg" data={data} />
+                        <div className="placeholder">
+                            <ReactWorldCountriesMap tooltipBgColor="black" color="blue" value-suffix="people" size="lg" data={data} />
+                        </div>
                      </div>
                 </Container>
                 <footer>
