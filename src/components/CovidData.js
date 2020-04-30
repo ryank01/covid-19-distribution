@@ -129,7 +129,7 @@ export default class CovidData extends React.Component {
                         Last Updated: {lastUpdated}
                         </Col>
                         <Col md={{span:1, offset:9}} xs={{span:3, offset:4}}>
-                            <a href="https://github.com/pomber/covid19">Datasource</a>
+                            <a href="https://github.com/CSSEGISandData/COVID-19">Datasource</a>
                         
                         </Col>
                     </Row>
