@@ -31,12 +31,17 @@
   color: white;
   font-weight: 700;
   margin : 0 !important;
+  overflow-x: auto;
 }
 
 .map * {
   background-color: black;
-
+  display: flex;
   width: 2000px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  overflow-x: auto;
 }
 
 .App-footer {
